@@ -1,10 +1,8 @@
 Hello!
-Sorry, just realised you can't download from spotlight!
-Basically, you can't download this project unless i 
+
 Flappybird is now available as an app (flappybird.exe)
 I am working on a version for linux (I have the executable for linux, I just haven't figured how to package it yet)
-NO ADMIN RIGHTS ARE REQUIRED FOR THE APP'S USE This means that it can be run on the surfaces
-When downloading the app, you will probably get a lot of popups telling you it is a virus, click install or run anyway
+NO ADMIN RIGHTS ARE REQUIRED FOR THE APP'S USE This means that it can be run on school computers
+When downloading the app, you will probably get a lot of popups telling you it is a virus, click install or run anyway.
 (often you have to click the 3 dots or learn more to get that option)
 Enjoy!
-(right click a file the click 'download' to download it)
