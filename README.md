@@ -5,7 +5,9 @@ game takes a while to load :(
 
 click or spacebar to jump
 
-[Play in browser](https://replit.com/@hammersleyty19/flappy-bird)
+[Play in browser (link to replit)](https://replit.com/@hammersleyty19/flappy-bird)
+
+[Get files from GitHub](https://github.com/Tav-H/flappy-bird)
 
 Flappybird is now available as an app (flappybird.exe)
 I am working on a version for linux (I have the executable for linux, I just haven't figured how to package it yet)
