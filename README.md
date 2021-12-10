@@ -1,5 +1,5 @@
-# flappy-bird
-Play flappy bird!
+# flappy-bird-clone
+Play flappy bird! (I am not claiming any rights to flappy bird, this is just a fun project that I programmed)
 
 game takes a while to load :(
 
