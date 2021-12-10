@@ -7,6 +7,7 @@ def end_game():
 	pygame.quit()
 	exit()
 	exit()
+font = pygame.font.Font(("Roboto-Bold.ttf"), 100)
 sizex = 300
 sizey = 400
 window = pygame.display.set_mode((sizex, sizey))
@@ -132,6 +133,16 @@ while run:
 	window.blit(background, (0, 0))
 	window.blit(pipe, (pipeplace1, pipeheight1))
 	window.blit(pipe, (pipeplace2, pipeheight2))
+
+
+	scoretext = font.render(str(score), True, (255, 255, 255))
+	scorerect = scoretext.get_rect()
+	window.blit(scoretext, [100, 50])
+
+
+
+
+
 end_game()
 
 
