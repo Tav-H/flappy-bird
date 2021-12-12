@@ -4,10 +4,9 @@ from time import sleep
 pygame.init()
 pygame.display.set_caption('flappy bird')
 def end_game():
-	print('your final score was: ' + str(score))
-	#pygame.quit()
-	#exit()
-	#exit()
+	pygame.quit()
+	exit()
+	exit()
 
 #variables to keep
 font = pygame.font.Font(("Roboto-Bold.ttf"), 100)
@@ -54,7 +53,7 @@ while run:
 	clock.tick(10)
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
-			run = False
+			end_game()
 		mouse_presses = pygame.mouse.get_pressed()
 		if mouse_presses[0]:
 			run = False
@@ -75,7 +74,7 @@ while True:
 		clock.tick(60)
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
-				run = False
+				end_game()
 			mouse_presses = pygame.mouse.get_pressed()
 			if mouse_presses[0]:
 				x = -1
@@ -134,11 +133,11 @@ while True:
 
 		if check:
 			if y + 19 < 275 + pipeheightnow:
-				end_game()
+				print('your final score was: ' + str(score))
 				break
 				
 			elif y + 41 > 367 + pipeheightnow:
-				end_game()
+				print('your final score was: ' + str(score))
 				break
 
 			elif increase_score == 0:
@@ -167,7 +166,7 @@ while True:
 		waiting_buffer += 1
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
-				run = False
+				end_game()
 			mouse_presses = pygame.mouse.get_pressed()
 			if mouse_presses[0]:
 				if waiting_buffer > 60:
