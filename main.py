@@ -5,8 +5,8 @@ pygame.init()
 pygame.display.set_caption('flappy bird')
 def end_game():
 	pygame.quit()
-	exit()
-	exit()
+	sys.exit()
+
 
 #variables to keep
 font = pygame.font.Font(("Roboto-Bold.ttf"), 100)
@@ -30,6 +30,7 @@ bodyup = pygame.transform.rotate(body,10)
 bodydown = pygame.transform.rotate(body,-10)
 increase_score = 0
 
+pygame.display.set_icon(pygame.image.load('bird.png'))
 
 #variables that change
 x = 10
